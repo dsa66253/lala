@@ -21,18 +21,19 @@ ul{
     display:flex;
     flex-wrap:wrap;
 }
-.col{
+.col-info{
     width:100%;
-    padding: 0 15px
+    padding: 0 15px;
+    font-size: 25px;
 }
-.col h4{
-    font-size:18px;
+.col-info h4{
+    font-size:150%;
     color:#303030;
     text-transform: capitalize;
     font-weight:500;
     position:relative;
 }
-/* .col h4::before{
+.col-info h4::before{
     content:"";
     position: absolute;
     Left:0;
@@ -41,15 +42,15 @@ ul{
     height:2px;
     box-sizing:border-box;
     width:50px;
-} */
-.col ul li:not(:last-child){
+}
+.col-info ul li:not(:last-child){
     margin-bottom: 10px;
 }
 
-.col ul li span{
+.col-info ul li span{
     color:#4b4b4b;
 }
-.col ul li a{
+.col-info ul li a{
     font-size:16px;
     color:#4b4b4b;
     text-decoration:none;
@@ -57,7 +58,7 @@ ul{
     display:block;
     transition: all 0.3s ease;
 }
-.col ul li a:hover{
+.col-info ul li a:hover{
     color:#000000;
     padding-left:8px;
 }

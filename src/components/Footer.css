@@ -10,6 +10,10 @@
     width: 100%;
     padding: 30px 0;
 }
+.big-text{
+    
+}
+
 ul{
     list-style:none;
 }
@@ -41,7 +45,7 @@ ul{
     background-color:#e91e63;
     height:2px;
     box-sizing:border-box;
-    width:40px;
+    width:100px;
 }
 .col ul li:not(:last-child){
     margin-bottom: 10px;

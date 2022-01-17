@@ -7,9 +7,9 @@ const Info = () => {
       <div className="container">
         <div className="row">
           {/* Column1 */}
-          <div className="col">
+          <div className="col-info">
             <h4>Info</h4>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled-info">
               <li>
                 <span>
                   感謝您的信任與支持！ 我們嚴選食材與用心製作，
