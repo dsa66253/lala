@@ -5,6 +5,7 @@ import Header from './components/Header';
 import PlaceToVisit from './components/PlaceToVisit';
 import ReactPlayer from "react-player";
 import Footer from "./components/Footer.js"
+import Info from "./components/Info.js"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,6 +23,7 @@ export default function App() {
       {/* <ReactPlayer controls url={`${process.env.PUBLIC_URL}`+'/assets/video1.mp4'}/> */}
       <CssBaseline />
       <Header />
+      <Info/>
       <PlaceToVisit />
       <div className="page-container">
 

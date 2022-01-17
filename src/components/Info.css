@@ -1,8 +1,7 @@
-.main-footer {
-    color: white;
-    /* opacity: 0.8; */
-    background-color: rgb(250,237,241,0.6);
-    /* background-color: rgba(0, 255, 115, 0.6); */
+.main-info{
+    color: none;
+    opacity: 1;
+    background-color: none;
     /* background-image: linear-gradient(to top, rgb(250,237,241,0.6) 27, rgb(250,237,241) 73%); */
     padding-top: 3em;
     position: relative;
@@ -33,7 +32,7 @@ ul{
     font-weight:500;
     position:relative;
 }
-.col h4::before{
+/* .col h4::before{
     content:"";
     position: absolute;
     Left:0;
@@ -41,8 +40,8 @@ ul{
     background-color:#e91e63;
     height:2px;
     box-sizing:border-box;
-    width:40px;
-}
+    width:50px;
+} */
 .col ul li:not(:last-child){
     margin-bottom: 10px;
 }
