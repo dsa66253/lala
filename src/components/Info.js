@@ -4,7 +4,7 @@ import "./Info.css";
 const Info = () => {
   return (
     <div className="main-info">
-      <div className="container">
+      <div className="container-info">
         <div className="row">
           {/* Column1 */}
           <div className="col-info">

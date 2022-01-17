@@ -9,12 +9,12 @@ import { Collapse } from '@material-ui/core';
 import ReactPlayer from "react-player"
 const useStyles = makeStyles({
   root: {
-    maxWidth: 645,
+    maxWidth: "90vw",
     background: 'rgba(0,0,0,0.5)',
     margin: '20px',
   },
   media: {
-    height: 440,
+
   },
   title: {
     fontFamily: 'Nunito',
@@ -40,8 +40,8 @@ export default function ImageCard({ place, checked }) {
           image={place.imageUrl}
           title="Contemplative Reptile"
         /> */}
-        
-        <ReactPlayer controls url={place.videoUrl}/>
+        {/* //!keep ratio of width and height */}
+        <ReactPlayer width="100%" height="100%" className={classes.media}  controls url={place.videoUrl} />
         <CardContent>
           <Typography
             gutterBottom

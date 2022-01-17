@@ -12,10 +12,11 @@
 ul{
     list-style:none;
 }
-.container{
-    max-width:50%;
+.container-info{
+    max-width:70%;
+    min-width: 95vw;
     background-color:none;
-    margin:auto
+    margin:auto;
 }
 .row{
     display:flex;
@@ -57,6 +58,7 @@ ul{
     font-weight:300; 
     display:block;
     transition: all 0.3s ease;
+    min-width: 90vw;
 }
 .col-info ul li a:hover{
     color:#000000;

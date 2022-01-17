@@ -22,7 +22,7 @@ const Footer = () => {
         <hr />
         <div className="row">
           <p className="col-sm">
-            &copy;{new Date().getFullYear()} Mary
+            &copy;{new Date().getFullYear()} Mary | All rights reserved
           </p>
         </div>
       </div>
