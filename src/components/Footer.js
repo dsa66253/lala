@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import {MailOutlined} from '@ant-design/icons';
+import {Popover} from "antd"
 const Footer = () => {
   return (
     <div className="main-footer">
@@ -21,6 +22,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="row">
+            
           <p className="col-sm">
             &copy;{new Date().getFullYear()} Mary | All rights reserved
           </p>
