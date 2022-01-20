@@ -9,12 +9,16 @@ const app = express();
 
 
 app.use(express.static(path.join(__dirname, "build")));
-app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
+app.get("/", (req, res)=> {
+  // console.log(req);
+  console.log("client reach")
+  console.log("client header", JSON.stringify(req.headers));
   const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-  console.log(ip); // ip address of the user
+  console.log("client ip", ip); // ip address of the user
+  res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
+
 app.listen(port, () => {
-    console.log(`Server is up on port ${port}!`);
+    console.log(`Hello Server is up on port ${port}!`);
  });
